@@ -318,7 +318,7 @@ body{
 }
 @media (max-width: 991px){
     .about .about-content .image{
-        margin: auto 60px; 
+        Width: fit-content;
     }
 }
 .about .about-content .image img{
@@ -351,13 +351,13 @@ body{
         display: none;
     }
 }
-@media (max-width: 1199px) {
-    .image-column {
-        display: none;
-    }
-}
 .about .about-content .text{
     flex-basis: calc(100% - 500px);
+}
+@media (max-width: 991px){
+    .about .about-content .image{
+        Width: fit-content;
+    }
 }
 .about .about-content .text p:first-of-type{
     font-weight: bold;
