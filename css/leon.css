@@ -351,6 +351,11 @@ body{
         display: none;
     }
 }
+@media (max-width: 1199px) {
+    .image-column {
+        display: none;
+    }
+}
 .about .about-content .text{
     flex-basis: calc(100% - 500px);
 }
